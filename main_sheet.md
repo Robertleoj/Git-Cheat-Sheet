@@ -21,6 +21,8 @@
 
 * Can use `git diff [filename]` to see differences for specific file
 
+### Add everything to the staging area and commit:
+    git commit -a -m "message"
 
 ### Shows a list of all previous commits:
     git log
