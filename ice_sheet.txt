@@ -1,0 +1,47 @@
+Einfalt Git: 
+
+git status 
+
+git add . 
+
+git commit -m "bla" 
+
+git push -u origin branchname //eða// git push -u origin branchname 
+
+ 
+
+ 
+
+Detailed: 
+
+1. git checkout master  
+
+2. git pull origin master 
+
+3. git checkout -b branchname 
+
+4.  
+
+   do code 
+
+---> ef þú vilt ekki adda breytingum en bara ná í nýtt pull er hægt að gera git stash 
+
+-----> eða ef eh í working tree er að fokka, (þá má vera á master) og gera git reset --hard origin/master 
+
+(þetta fer með þig í síðasta pull og hendir því sem þú gerðir síðan) 
+
+ 
+
+5. git add -p (til að sjá hverju ég er að adda og segja y/n í fyrir hvern part) 
+
+Git add . (ef þér er sama og vilt adda öllu) 
+
+6. git commit -m "super kúl breytingar" 
+
+7. git pull --rebase origin main (Þetta nær í það nýjasta af main og reynir að  
+
+bæta commitinu mínu ofan á nýjasta af main, leysi úr merge conflictinu ef það er eitthvað) ATH EF ÞÚ VILT DRAGA MAIN YFIR OG ERT AÐ FARA AÐ MERGA Á MAIN 
+
+8. (til að pusha branchinu á github)git push -u origin branchname 
+
+9. bý svo til merge request á github (nokkur skref) 
