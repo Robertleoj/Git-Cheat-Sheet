@@ -88,6 +88,9 @@ Usually with GitHub
 ### Push branch up to the remote:
     git push origin [your_branch_name]
 
+### Fetch and merge from remote master branch
+    git pull
+
 
 ## Git workflow
 1. Fetch and merge changes from the remote
